@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:wght@100&display=swap');
+body {
+  box-sizing: border-box;
+  font-family: 'Chewy', system-ui;
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/pic2.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  color: #252323;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+  background-image: url("/img/pic1.jpg");
+  background-size: contain;
+  margin-top: 0;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container {
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.22);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 570px;
+  height: 530px;
+}
+
+
+
+.jokes {
+  margin-top: 100px;
+  font-size: 35px;
+  color: #fdfdff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 150px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+
+#btn {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 25px;
+  text-shadow: 2px, 2px, 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8600;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+#btn:hover {
+  background-color: #d8572a;
+}
